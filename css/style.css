@@ -10,14 +10,15 @@
     align-items: flex-end;
     margin: 5px;
 }
-.phones img{
-   
+
+.phones img {
+
     width: 25px;
     height: 25px;
     justify-content: flex-end;
     align-items: flex-end;
-    
-    
+
+
 }
 
 .phones a {
@@ -25,10 +26,38 @@
     color: black;
     display: flex;
     display: row;
-     justify-content: flex-end;
+    justify-content: flex-end;
     align-items: flex-end;
-    
+
 }
+
 .carrouselImg {
     height: 600px;
+    
+}
+
+
+
+.botonCarrousel p {
+    display: inline-block;
+    z-index: 1;
+    
+    position: absolute;
+    left: calc(600px/2 - 40px);
+    top: calc(700px/2 - 10px);
+    font-size: 2rem;
+    background-color: white;
+    opacity: 0.5;
+
+}
+
+.botonCarrousel button {
+    display: inline-block;
+    z-index: 1;
+    
+    position: absolute;
+    left: calc(600px/2 - 40px);
+    top: calc(400px/2 - 10px);
+    font-size: 2rem;
+
 }
