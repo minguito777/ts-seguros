@@ -1,63 +1,171 @@
-.img-logo {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-}
-
-.phones p {
-
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin: 5px;
-}
-
-.phones img {
-
-    width: 25px;
-    height: 25px;
-    justify-content: flex-end;
-    align-items: flex-end;
-
+.formulario {
+    margin-top: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:  0 auto ;
+    width: 70%;
+    height: auto;
+    box-shadow: 22px 18px 0px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 22px 18px 0px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 22px 18px 0px 2px rgba(0, 0, 0, 0.75);
 
 }
 
-.phones a {
-    text-decoration: none;
-    color: black;
+.titulo2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.832);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+#marcas {
     display: flex;
-    display: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.carrouselImg {
-    height: 600px;
-    
+#marcas img {
+
+    width: 15rem;
+    height: 50%;
+    margin: 0 auto;
+    /* box-shadow: 41px 32px 14px -15px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 41px 32px 14px -15px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 41px 32px 14px -15px rgba(0, 0, 0, 0.34); */
 }
 
+.nos {
+    display: flex;
 
+}
 
-.botonCarrousel p {
-    display: inline-block;
-    z-index: 1;
+.nos img {
+    width: 50%;
+    height: 350px;
+    margin: auto;
+}
+
+.nos p {
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+    /* border: 1px solid rgba(0, 0, 0, 0.466); */
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    box-shadow: 41px 32px 14px -3px rgba(242, 60, 60, 0.48);
+    -webkit-box-shadow: 41px 32px 14px -3px rgba(242, 60, 60, 0.48);
+    -moz-box-shadow: 41px 32px 14px -3px rgba(242, 60, 60, 0.48);
+}
+
+main{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+section{
+    transform-style: preserve-3d;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+section h3 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+.no-parallax{
+    background-color: #ffffff;
+    z-index: 999;
     
+}
+.video-background{
+    
+    opacity: 0.45;
+    visibility: visible;
+    
+    
+}
+.zindex{
     position: absolute;
-    left: calc(600px/2 - 40px);
-    top: calc(700px/2 - 10px);
-    font-size: 2rem;
-    background-color: white;
-    opacity: 0.5;
-
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  
+}
+.zindex p{
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.563);
+    
 }
 
-.botonCarrousel button {
-    display: inline-block;
-    z-index: 1;
-    
-    position: absolute;
-    left: calc(600px/2 - 40px);
-    top: calc(400px/2 - 10px);
+
+.parallax h3{
+    width: 60%;
     font-size: 2rem;
 
+}
+.parallax::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+}
+
+.bg::after{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../img/family.jpg");
+    background-size: cover;
+}
+
+
+.seguros{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.seguros img {
+    width: 38px;
+    height: 38px;
+   margin: 0 auto;
+}
+
+.seguros p{
+    font-size: medium;
+    width: 100%;
+    height: 110px;
+   
+}
+.card {
+    border: none;
+}
+.img-form{
+    background: url("../img/automor.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 200px;
 }

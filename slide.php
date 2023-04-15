@@ -1,4 +1,4 @@
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+<!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="botonCarrousel">
@@ -51,4 +51,14 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-</div>
+</div> -->
+
+
+<div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="./img/automor.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="./img/moto.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="./img/bicicleta.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="./img/accidente.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="./img/celular-notebook.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="./img/incendio.jpg"></a>
+  </div>

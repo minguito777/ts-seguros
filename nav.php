@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="./index.php"><img class="img-logo" src="./img/LOGO.jpeg"></a>
+    <a class="navbar-brand " href="./index.php"><img class="img-logo" src="./img/LOGO.jpeg"><p class="text-nowrap bg-body-secondary border"></p></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
