@@ -1,6 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
-    let elems = document.querySelectorAll('.parallax');
-    let instances = M.Parallax.init(elems, options);
-  });
+const toggleButton = document.getElementById("toggle-button");
+const toggleContent = document.getElementById("toggle-content");
 
-  var instance = M.Parallax.getInstance(elem);
+toggleButton.addEventListener("click", function() {
+  if (toggleContent.style.display === "none") {
+    toggleContent.style.display = "block";
+  } else {
+    toggleContent.style.display = "none";
+  }
+});

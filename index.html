@@ -9,18 +9,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/LOGO.jpeg" type="image/x-icon">
+    <meta name="description" content="Seguros de autos, motos, bicicletas, somos los mejores, ">
+    <meta name="keywords" content="Seguro,Seguros,Precios Bajos,autos, motos, bicicletas">
+
+
 
     <title>Ts Seguros</title>
 </head>
 
 <body>
+    <div class="whatsapp">
+        <img src="./img/icons8-whatsapp-48.png" alt="whatsapp">
+        <a href="https://wa.link/kwrrsh">
+            <p>Envianos tu consulta</p>
+        </a>
+    </div>
     <main>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="./img/LOGO.jpeg" alt="Logo" width="30" height="24"
-                            class="d-inline-block align-text-top">
+
+            <nav class="navbar color  navbar-expand-lg  ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./img/LOGO.jpeg" alt="Logo" class="d-inline-block align-text-top loI">
                         Tiscornia Silguero
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,7 +53,7 @@
                                 <a class="nav-link" href="#seguros">Seguros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link" href="#contacto">Contacto</a>
                             </li>
 
                         </ul>
@@ -52,16 +63,41 @@
         </header>
 
         <div class="hero">
-            <div id="carouselExample" class="carousel slide">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="./img/automor.jpg" class="d-block w-100  " alt="...">
+                        <div class="carousel-caption d-none d-md-block bloqueCarousel">
+                            <div class="refCar">
+                                <h5 class="color-white">Seguro del automotor</h5>
+                                <p class="color-white1">Viaja tranquilo a donde sea</p>
+
+                            </div>
+                            <button type="button" class="btn btn-secondary">¡Contrata tu seguro!</button>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="./img/motociclista-mujer-sexy-sentada-motocicleta-estilo-retro-abrocharse-cinturon-casco-antes-viajar.jpg"
+                            class="d-block w-100 " alt="...">
+                        <div class="carousel-caption d-none d-md-block bloqueCarousel">
+                            <div class="refCar">
+                                <h5 class="color-white">Seguro de Moto</h5>
+                                <p class="color-white1">Viaja con la seguridad, de la proteccion!</p>
+
+                            </div>
+                            <button type="button" class="btn btn-secondary">¡Contrata tu seguro!</button>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="./img/familybicicleta.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bloqueCarousel">
+                            <div class="refCar">
+                                <h5 class="color-white">Seguro de bicicleta</h5>
+                                <p class="color-white1">Sali a andar como el bicibandido</p>
+
+                            </div>
+                            <button type="button" class="btn btn-secondary">¡Contrata tu seguro!</button>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
@@ -76,7 +112,17 @@
                 </button>
             </div>
         </div>
-        <div class="video-background">
+
+        <div class="bloqueCarouselm">
+            <div class="refCarm">
+
+
+
+            </div>
+            <button type="button" class="btn btn-secondary">¡Contrata tu seguro!</button>
+        </div>
+        </div>
+        <!-- <div class="video-background">
             <video width="100%" height="100%" autoplay loop muted>
                 <source src="./vid/ladron-3582.mp4" type="video/mp4">
                 Tu navegador no admite la etiqueta de video.
@@ -86,35 +132,197 @@
                 <a href="./cotizar.php" class="btn btn-secondary"> Contrata tu seguro!!!!</a>
             </div>
 
-        </div>
+        </div> -->
 
         <section class="no-parallax">
 
+            <p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Automotor
+                </button>
+            </p>
+            <div class="tole">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="card card-body">
+                        ¡Los mejores precios en seguros! <br>
+                        Responsibilidad Civil <br>
+                        Seguro contra terceros <br>
+                        Seguro contra todo riesgo <br>
+                        Robo de cubierta <br>
+
+                    </div>
+                </div>
+            </div>
+            <p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Motovehiculos
+                </button>
+            </p>
+            <div class="tole">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="card card-body">
+                        ¡Los mejores precios en seguros! <br>
+                        Responsibilidad Civil <br>
+                        Seguro contra terceros <br>
+                        Seguro contra todo riesgo <br>
+                        Robo de cubierta <br>
+
+                    </div>
+                </div>
+            </div>
+            <p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Bicicleta
+                </button>
+            </p>
+            <div class="tole">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="card card-body">
+                        ¡Los mejores precios en seguros! <br>
+                        Responsibisasdasdasdlidad Civil <br>
+                        Seguro contra terceros <br>
+                        Seguro contra todo riesgo <br>
+                        Robo de cubierta <br>
+
+                    </div>
+                </div>
+            </div>
 
 
 
         </section>
         <section class="parallax bg">
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt.</h3>
+            <h3>Más de 10.000 clientes mensualmente utilizan nuestro cotizador online. No te quedes con la duda de si
+                estás pagando mucho por tu seguro</h3>
         </section>
         <section class="no-parallax">
-            <div id="companias">
+            
 
-                <h2 class="titulo2">Nuestas Compañias</h2>
-    
-                <div id="marcas">
-                    <img src="./img/147_federacion.jpg" alt="Federacion Patronal">
-                    <img src="./img/rus.png" alt="Rio Uruguay Seguros">
-                    <img src="./img/rivadavia.jpg" alt="Rivadavia">
-                    <img src="./img/hdi-seguros-pandemia-innovacion.png" alt="Hdi seguros">
-                    <img src="./img/atm.jpg" alt="ATM">
-    
-                </div>
-            </div>
         </section>
 
-       
-        
+
+        <div class="siniestro">
+            <div class="cliente">
+                <img src="./icons/opinion-del-cliente.png" alt="clientes">
+                <p>Utilizá nuestra web para denunciar un choque, rotura de cristales, o robo de ruedas.
+                    Ingresá tu pre-denuncia por aquí, y ahorrá tiempo.</p>
+                <button class="btn btn-secondary" id="toggle-button"> Denuncia tu Siniestro</button>
+                <div id="toggle-content" style="display: none;">
+                    <div class="oculto">
+                        <h4>DATOS PERSONALES</h4>
+                        <form class="form-horizontal" action="" method="post">
+                            <div class="formS">
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="nombre"
+                                        placeholder="Nombre y Apellido">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="tel" class="form-control col-lg-4" name="telefono"
+                                        placeholder="Telefono">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="mail" class="form-control col-lg-4" name="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formFile" class="form-label">Adjunte Imagen</label>
+                                <input class="form-control" type="file" id="formFile">
+                            </div>
+                            <h4>DATOS DEL CONDUCTOR</h4>
+                            <div class="formS">
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="nombreConductor"
+                                        placeholder="Nombre y Apellido">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="patente"
+                                        placeholder="Patente">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="number" class="form-control col-lg-4" name="numeroRegistro"
+                                        placeholder="Numero de registro">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="date" class="form-control col-lg-4" name="vigencia"
+                                        placeholder="Videncia: dd-mm-aaaa">
+                                </div>
+                            </div>
+                            <h4>DATOS DEL SINIESTRO</h4>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Tipo de siniestro</option>
+                                <option value="1">Choque</option>
+                                <option value="2">Robo de rueda</option>
+                                <option value="3">Rotura de cristal</option>
+                            </select>
+                            <div class="formS">
+                                <div class="form-group mr-2">
+                                    <input type="date" class="form-control col-lg-4" name="fechaSiniestro"
+                                        placeholder="Fecha:dd-mm-aaaa ">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="hour" class="form-control col-lg-4" name="horaSiniestro"
+                                        placeholder="Hora: ej. 8:30PM">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="lugarSiniestro"
+                                        placeholder="Lugar,Calle,Interseccion">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="detalleSiniestro"
+                                        placeholder="Detalle de los daños">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <textarea class="form-control" name="descSiniestro" id="" cols="30" rows="10"
+                                        placeholder="Descripcion del Accidente"></textarea>
+                                </div>
+                            </div>
+                            <h4>DATOS DEL TERECERO</h4>
+                            <div class="formS">
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="nombreTercero"
+                                        placeholder="Nombre y Apellido de Conductor">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="autoTercero"
+                                        placeholder="Marca y modelo del vehículo">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="patenteTercero"
+                                        placeholder="Patente">
+                                </div>
+                                <div class="form-group mr-2">
+                                    <input type="text" class="form-control col-lg-4" name="aseguradoraTercero"
+                                        placeholder="Aseguradora">
+                                </div>
+
+                            </div class="form-group mr-2">
+                            <input type="submit" class="btn btn-secondary container-fluid" value="ENVIAR">
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="companias">
+
+            <h2 class="titulo2">Nuestas Compañias</h2>
+
+            <div id="marcas">
+                <img src="./img/147_federacion-removebg-preview.png" alt="Federacion Patronal">
+                <img src="./img/rus-removebg-preview.png" alt="Rio Uruguay Seguros">
+                <img src="./img/rivadavia-removebg-preview.png" alt="Rivadavia">
+                <img src="./img/hdi-seguros-pandemia-innovacion-removebg-preview.png" alt="Hdi seguros">
+                <img src="./img/atm-removebg-preview.png" alt="ATM">
+
+            </div>
+        </div>
+
+
 
 
         <div id="nosotros">
@@ -257,14 +465,45 @@
         </div>
 
 
-        <div class="formulario1">
+
+
+        <div class="bajo">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26320.505497461592!2d-58.58719886560381!3d-34.450543872584895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca568119a2861%3A0x27933dc457c12b90!2sSan%20Fernando%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1681680079798!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div id="contacto" class="formulario1">
+                <h4>Contacto</h4>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary container-fluid btC">Enviar</button>
+                </form>
 
 
 
 
 
+
+            </div>
         </div>
-
 
 
 
@@ -276,16 +515,17 @@
         <div class="card">
             <div class="card-header">
 
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Tiscornia Silguero Seguros</h5>
-                <p>--------<br>
-                    Whatsapp: 11 3562-2157 | <br>
-                    E-mail:<a href="mailto:tsproductores@gmail.com"> tsproductores@gmail.com</a> <br>
-                    Dirección: San Fernando. Buenos Aires</p>
-                </p>
-                <p class="card-text">Derechos reservados 2023</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Tiscornia Silguero Seguros</h5>
+                    <p>--------<br>
+                        Whatsapp: 11 3562-2157 | <br>
+                        E-mail:<a href="mailto:tsproductores@gmail.com"> tsproductores@gmail.com</a> <br>
+                        Dirección: San Fernando. Buenos Aires</p>
+                    </p>
+                    <p class="card-text">Derechos reservados 2023</p>
+
+                </div>
             </div>
         </div>
 
@@ -311,7 +551,7 @@
 
 
 
-
+    <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
